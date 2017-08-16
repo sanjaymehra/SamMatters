@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sam_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ey_ras.sammatters.SamNewsActivity">
+
+    <ImageButton
+        android:layout_width="33dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/sanju"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton6"
+        android:contentDescription="" />
+
+    <TextView
+        android:text="  Sam News"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="40sp"
+        android:background="#ffe600"
+        android:id="@+id/textView5"
+        android:textColor="#cccccc"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

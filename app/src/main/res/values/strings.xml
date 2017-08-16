@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SAM Matters</string>
+    <string name="title_activity__signup">Activity_Signup</string>
+    <string name="ey_atom">EY Atom</string>
+    <string name="sam_news">SAM News</string>
+    <string name="sam_matters">SAM Matters</string>
+    <string name="add">Add</string>
+    <string name="sam_awarnees">SAM Awarnees</string>
+    <string name="title_activity_main4">Main4Activity</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+</resources>

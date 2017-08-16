@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/photo"
+    tools:context="ey_ras.sammatters.MainActivity2">
+
+    <ImageButton
+        android:layout_width="33dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/sanju"
+        android:id="@+id/imageButton"
+        android:layout_alignParentStart="true"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/logo11"
+        android:id="@+id/imageView"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/sam_matters"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:id="@+id/textView4"
+        android:background="#999999"
+        android:textSize="35dp"
+        android:textColor="#ffe600"
+        tools:ignore="RelativeOverlap,SpUsage"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_launcher"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/SamNews"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_launcher1"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_launcher2"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:id="@+id/EYAtom"
+        android:background="#999999"
+        android:text="@string/ey_atom"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:text="SAM Awareness"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:background="#333333"
+        android:textColor="#ffffff"
+        android:id="@+id/SamAwarenees"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/imageView2"
+        android:layout_toLeftOf="@+id/EYAtom"
+        android:layout_toRightOf="@+id/SamNews" />
+
+    <Button
+        android:text="@string/sam_news"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:id="@+id/SamNews"
+        android:background="#ffe600"
+        android:layout_marginStart="14dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

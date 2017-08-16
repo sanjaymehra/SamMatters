@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "926733913072",
+    "firebase_url": "https://sam-matters.firebaseio.com",
+    "project_id": "sam-matters",
+    "storage_bucket": "sam-matters.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926733913072:android:84b9141c688b4664",
+        "android_client_info": {
+          "package_name": "ey_ras.sammatters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926733913072-h224vcehanji6ci80n8h3obarq4ojmib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnXVGHyrWZ1fY3miP7FvDoQnMxoQGuU_c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
